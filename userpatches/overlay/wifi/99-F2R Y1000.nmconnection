@@ -1,0 +1,23 @@
+[connection]
+id=F2R Y1000
+uuid=e0d60149-45ae-4def-992d-e128a4c20de6
+type=wifi
+interface-name=wlan0
+
+[wifi]
+mode=infrastructure
+ssid=F2R Y1000
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=f2ry1000
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]

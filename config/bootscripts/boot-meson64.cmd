@@ -11,7 +11,7 @@ setenv overlay_error "false"
 setenv rootdev "/dev/mmcblk1p1"
 setenv verbosity "1"
 setenv console "both"
-setenv bootlogo "false"
+setenv bootlogo "true"
 setenv rootfstype "ext4"
 setenv docker_optimizations "on"
 
@@ -64,7 +64,7 @@ setenv display_autodetect "true"
 #    "2560x1440p60hz"   | 2560x1440 Progressive 60Hz
 #    "2560x1600p60hz"   | 2560x1600 Progressive 60Hz
 #    "3440x1440p60hz"   | 3440x1440 Progressive 60Hz
-setenv hdmimode "1080p60hz"
+setenv hdmimode "1024x768p60hz"
 setenv monitor_onoff "false"
 setenv overscan "100"
 setenv sdrmode "auto"
